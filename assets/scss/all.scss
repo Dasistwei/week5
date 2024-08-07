@@ -1,5 +1,9 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
+@import './utils/variables'; //變數
+@import './base/reset'; //reset.css
+@import './base/base'; //全站設定
 
+// layout
+@import './layout/sidebar.scss';
 
+// pages
 @import './pages/index.scss';

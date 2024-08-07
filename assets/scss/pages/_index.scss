@@ -1,3 +1,104 @@
-.index-title {
-  font-size: 100px;
+.outline{
+  // outline: 1px solid blue;
+}
+.nav{
+  // outline: 1px solid red;
+}
+
+.main{
+  // outline: 1px solid red;
+}
+.dropdown{
+  // outline: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.dropdown-btn{
+  // align-content: center;
+  text-align: center;
+  padding: 0;
+  span{
+    position: absolute;
+    // outline: 1px solid blue;
+    bottom: 4px;
+  }
+}
+.nav-icons{
+  // outline: 1px solid red;
+  margin: 0 -12px;
+  // padding: 0 -12px;
+  span{
+    margin:0 12px;
+    // padding: 0 12px;
+  }
+}
+
+//index
+.index-container{
+  max-width: 1280px; //1280 + 64px
+  margin: 0 auto;
+}
+.index-row{
+  display: flex;
+}
+.index-col{
+  // padding: 0 8px;
+  // margin: 0 8px;
+  &-sidebar{
+    width: 23%;
+  }
+  &-main{
+    width: 77%;
+  }
+  &-m{
+    width: 64%;
+  }
+}
+//assignments
+.assignment-container{
+  // outline: 1px solid blue;
+  max-width: 984px; //1280 + 64px
+  // padding: 0 32px;
+}
+.assignment-row{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.assignment-col{
+  &-titles{
+    width: 32.5%;
+  }
+  &-content{
+    width: 59.3%;
+  }
+}
+//messages
+.top-message{
+  background: $gray-100;
+}
+.collapse-border{
+  border: 1px solid $gray-400;
+}
+
+.reply-input{
+  border: none;
+}
+
+.editor{
+  span{
+    // outline: 1px solid red;
+    margin-right: 24px;
+  }
+}
+.reply-btns{
+  // outline: 1px solid red;
+  button{
+    padding: 8px 32px;
+  }
+}
+.ac-c{
+  align-content: center;
 }
